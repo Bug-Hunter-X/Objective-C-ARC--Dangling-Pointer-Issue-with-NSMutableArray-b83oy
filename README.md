@@ -1,0 +1,1 @@
+This repository demonstrates a subtle memory management bug in Objective-C using ARC.  The bug involves prematurely releasing an NSMutableArray after adding an object, leading to a dangling pointer.  The solution provides a correct approach to avoid this issue, ensuring proper memory management.
